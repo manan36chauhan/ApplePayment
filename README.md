@@ -104,7 +104,7 @@
         }
       }
     }
-  }
+      }
   
     extension ApplePayModule: PKPaymentAuthorizationControllerDelegate {
       func paymentAuthorizationController(_ controller: PKPaymentAuthorizationController, didAuthorizePayment payment: PKPayment, handler completion: @escaping (PKPaymentAuthorizationResult) -> Void) {
@@ -469,6 +469,6 @@
         <Button title="Apple Pay" onPress={initiateApplePay} />
       </View>
     );
-  };
+      };
   
-  export default ApplePayButton;
+      export default ApplePayButton;
