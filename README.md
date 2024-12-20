@@ -1,7 +1,7 @@
 # React native Apple Payment integration
 [Manzsoftech](https://medium.com/@manzsoftech)
 
-## Need to create cerrtification and development merchent id in apple developer account then create certificate and download also create p12 file for specific payment gateway like stripe/braintree/bambora etc.
+## Need to create certification and development merchent id in apple developer account then create certificate and download also create p12 file for specific payment gateway like stripe/braintree/bambora etc.
 
 **required to create 4 file , ApplePaymentModule.m, ApplePaymentModule.swift, useApplePay.ts (typescript) screen.js**
 
