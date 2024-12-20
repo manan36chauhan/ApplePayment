@@ -3,17 +3,9 @@ Manzsoftech
 
 ## Need to create cerrtification and development merchent id in apple developer account then create certificate and download also create p12 file for specific payment gateway like stripe/braintree/bambora etc.
 
-required to create 4 file
+**required to create 4 file , ApplePaymentModule.m, ApplePaymentModule.swift, useApplePay.ts (typescript) screen.js**
 
-ApplePaymentModule.m
-
-ApplePaymentModule.swift
-
-useApplePay.ts (typescript)
-
-screen.js
-
-//create file ApplePymenModule.swift
+` //create file ApplePymenModule.swift
 
 
 import Foundation
@@ -154,7 +146,7 @@ extension ApplePayModule: PKPaymentAuthorizationControllerDelegate {
       }
     }
   }
-}
+} `
 
 create ApplePayModule.m module file
 
